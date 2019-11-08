@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightergrey2"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBookmarkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/tvBookmarkUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:layout_marginStart="16dp"/>
+</LinearLayout>
